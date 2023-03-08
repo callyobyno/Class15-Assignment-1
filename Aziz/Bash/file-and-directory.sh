@@ -4,11 +4,11 @@
 
 clear
 read -p " Please enter a name of file or directory in your system: " name
-if [ -d$name ]
+if [ -d $name ]
 then
 	echo " $name is a  directory in your system, the permission are below "
 	ls -la
-elif [ -f$name ]
+elif [ -f $name ]
 then
 	echo "$name is a file in your system, permission are below "
 	ls -la
