@@ -4,16 +4,16 @@
 
 clear
 read -p " Please enter a name of file or directory in your system: " name
-if [ ]
+if [ -d$name ]
 then
-	echo
+	echo " $name is a  directory in your system, the permission are below "
 	ls -la
-elif
+elif [ -f$name ]
 then
-	echo
+	echo "$name is a file in your system, permission are below "
 	ls -la
 else
-	echo
-	echo
+	echo " $name does not exist in your system"
+	echo -e "\e[031m GOOD BYE \e[00m"
 	sleep 4
 fi
