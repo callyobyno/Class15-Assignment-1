@@ -11,3 +11,6 @@ then
 	exit 1
 fi
 echo `ls -la $dir`
+if [ -d "$dir" ]
+then
+	echo "$dir is a directory"
