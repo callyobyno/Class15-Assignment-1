@@ -2,8 +2,11 @@
 
 #Comparaison of the 2 CLI number
 
-clear 
-if [  $1 -gt $2 ]
+clear
+if [ $# -eq 0 ]
+	echo " you did not enter a number. no comparison can be made."
+	echo "                  GOOD BYE "
+elif [  $1 -gt $2 ]
 then
 	 echo " the bigger number is :"
 	 sleep 5
