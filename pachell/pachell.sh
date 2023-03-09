@@ -11,3 +11,25 @@ then
 fi
 
 echo "Goodbye"
+
+
+#######################################################################
+
+#!/bin/bash
+
+read -p "Enter file name: " filename
+
+
+
+if [ -f $filename ]
+then
+        echo "$filename exists as a regular file on your system."
+        echo "The permissions are: `ls -lai $filename.`"
+
+elif [ -d $filename ]
+then
+        echo"$filename exists as a directory on your system."
+        echo"The permission are: `ls -lai $filename.`"
+else
+        echo "file does not exist on your computer."
+fi
