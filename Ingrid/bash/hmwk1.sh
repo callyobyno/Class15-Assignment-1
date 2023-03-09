@@ -10,3 +10,4 @@ then
 	echo "$dir does not exit"
 	exit 1
 fi
+echo `ls -la $dir`
