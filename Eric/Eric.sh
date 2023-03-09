@@ -44,6 +44,18 @@ then
         exit 1
 fi
 
+#Print Permissions and Filetype
+# ls -l will not give permissions but tell how many contents
+echo `ls -la $dir`
 
+if [ -f "$dir" ]
+then
+        echo "$dir is a regular file."
+elif [ -d "$dir" ]
+then
+        echo "$dir is a directory."
+else
+        echo "$dir is neither a directory nor a regular file"
+fi
 
 
