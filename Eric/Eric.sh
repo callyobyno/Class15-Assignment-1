@@ -67,7 +67,7 @@ fi
 #!/bin/bash
 
 count=1
-while [ $count == 50 ]
+while [ $count -le 50 ]
 do
         if [ $(($count % 2)) -eq 0 ]
         then
