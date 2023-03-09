@@ -59,3 +59,21 @@ else
 fi
 
 
+
+
+
+# 3rd Assignment
+
+#!/bin/bash
+
+count=1
+while [ $count == 50 ]
+do
+        if [ $(($count % 2)) -eq 0 ]
+        then
+                echo "$count is even"
+        else
+                echo "$count is odd"
+        fi
+        ((count++))
+done
