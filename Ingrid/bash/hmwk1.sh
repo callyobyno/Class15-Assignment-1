@@ -3,3 +3,10 @@
 if [ $# -eq 0 ]
 then 
 	echo "please provide a file name"
+	read -p " file name: " dir
+fi
+if [ ! -e "$dir" ]
+then
+	echo "$dir does not exit"
+	exit 1
+fi
