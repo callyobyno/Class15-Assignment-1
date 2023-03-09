@@ -2,7 +2,7 @@
 
 # A script that states the num as even/odd
 
-for i in [1..50]
+for i in {1..50}
 do 
 	if [ $(($i%2)) -eq 0 ]
 	then
@@ -11,5 +11,4 @@ do
 		echo "$i is an odd number"
 	fi
 done
-
 
