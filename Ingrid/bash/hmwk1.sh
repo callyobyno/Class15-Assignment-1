@@ -15,3 +15,6 @@ if [ -d "$dir" ]
 then
 	echo "$dir is a directory"
 elif [ -f "$dir" ]
+then
+	echo "$dir is a regular file"
+fi
