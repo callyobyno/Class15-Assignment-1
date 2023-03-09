@@ -3,8 +3,9 @@
 #Comparaison of the 2 CLI number
 
 clear 
-if 
+if [  $1 -gt $2 ]
 then
-elif
+	 echo " the bigger number is :";  sleep 5;  echo "  $1 "
+elif[ $1 -lt $2 ]
 else
 fi
