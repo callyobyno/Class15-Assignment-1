@@ -36,4 +36,5 @@ fi
 read -p "Do you want to continue (Y/N): " ans
 answer=${ans^^}
 done 
-cat calculator-storage
+sleep 2
+tail -20 calculator-storage
