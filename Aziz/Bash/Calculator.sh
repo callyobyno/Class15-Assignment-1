@@ -21,12 +21,15 @@ then
 elif [[ $num -eq 2 ]]
 then
         echo " $num1 " - "  $num2 " = " $((num1-num2))"
+	echo " $num1 " - "  $num2 " = " $((num1-num2))">>calculator-storage
 elif [[ $num -eq 3 ]]
 then
         echo " $num1 " X " $num2 " = " $((num1*num2)) "
+	echo " $num1 " X " $num2 " = " $((num1*num2)) ">>calculator-storage
 elif [[ $num -eq 4 ]]
 then
         echo "$num1 " / " $num2 " = " $((num1/num2)) "
+	echo "$num1 " / " $num2 " = " $((num1/num2)) ">>calculator-storage
 fi
 read -p "Do you want to continue (Y/N): " ans
 answer=${ans^^}
