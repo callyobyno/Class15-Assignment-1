@@ -30,6 +30,8 @@ elif [[ $num -eq 4 ]]
 then
         echo "$num1 " / " $num2 " = " $((num1/num2)) "
 	echo "$num1 " / " $num2 " = " $((num1/num2)) ">>calculator-storage
+else
+	echo " Sorry $num is not a valid entry. Please retry by pressing Y or N to exit the program"
 fi
 read -p "Do you want to continue (Y/N): " ans
 answer=${ans^^}
