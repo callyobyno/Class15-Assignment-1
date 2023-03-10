@@ -7,3 +7,5 @@ Maven and Gradle are both build tools used in Java and other JVM-based projects 
 2- Plugin system: Both tools have a plugin system that allows developers to extend their functionality. However, Gradle's plugin system is more flexible and easier to use than Maven's.
 
 3- Learning curve: Maven is easier to learn than Gradle, as it has a simpler configuration syntax and a smaller learning curve. Gradle's DSL is more powerful but requires more time to master.
+
+4- Flexibility: Gradle offers more flexibility in terms of project structure and build customization than Maven. Gradle allows developers to define custom build logic using its DSL, while Maven has a more rigid structure.
