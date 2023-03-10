@@ -1,0 +1,7 @@
+Differences between Maven and Gradle
+
+SYNTAX
+
+Maven uses XML syntax
+Gradle uses a Groovy-based DSL
+
