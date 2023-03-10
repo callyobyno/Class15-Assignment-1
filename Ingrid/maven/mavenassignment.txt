@@ -15,4 +15,7 @@ FLEXIBILITY
 Developers can write custom extensions and plugins in Gradle. That make him more flexible when is about customization.
 Maven is more limited on set of plugins.
 
- 
+COMMUNITY
+
+Due to its performance and flexibility, Gradle gained more popularity than Maven.
+
