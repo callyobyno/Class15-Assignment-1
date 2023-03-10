@@ -1,0 +1,3 @@
+Differences between Maven and Gradle
+
+Maven and Gradle are both build tools used in Java and other JVM-based projects to automate the building, testing, and deployment of software applications. Here are some of the main differences between the two:
