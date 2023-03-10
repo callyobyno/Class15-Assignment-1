@@ -12,4 +12,8 @@ Differences between Maven and Gradle:
 -Gradle is generally faster than Maven due to its incremental build feature, which only rebuilds what has changed since the last build.
 
 4.Dependency management:
--Maven has a central repository of dependencies, while Gradle allows you to use multiple repositories and even define your own.
+-Maven has a central repository of dependencies,
+-Gradle allows you to use multiple repositories and even define your own.
+
+5.Learning curve:
+-Maven has a steeper learning curve than Gradle due to its XML configuration, while Gradle's DSL is more approachable for developers.
