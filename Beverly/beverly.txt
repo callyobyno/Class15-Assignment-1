@@ -12,3 +12,8 @@ Differences include:
 
 2. Maven creates build artifacts within a target directory, whereas Gradle uses a build directory.
 
+3. Maven projects are defined with an XML build file (which contains the project group, artifact ID, and version; as well as the project dependencies). WHEREAS, Gradle used code-based scripts (Groovy language, or Kotlin) which makes configurations less verbose. XML is just more wordy.
+
+4. When running Maven commands, for instance Maven test, the Maven lifecycle up and including test (command), will be run. WHEREAS, Gradle makes building applications faster and easier; when making minor changes, a full rebuild (or going thru the entire lifecycle) is not necessary.
+
+
