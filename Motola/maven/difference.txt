@@ -4,3 +4,6 @@ Here are the key differences between the two:
 
 1. Configuration: Maven uses an XML-based configuration file, while Gradle uses a Groovy-based configuration file.
  This means that Gradle is more flexible and expressive in terms of configuring build tasks. 
+
+2. Build Speed: Gradle is generally considered to be faster than Maven due to its incremental build feature.
+ This feature only builds the parts of the project that have changed since the last build, while Maven builds the entire project every time.
