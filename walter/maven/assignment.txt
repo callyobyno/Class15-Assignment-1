@@ -2,3 +2,5 @@ Differences between maven and Gradle
 
 1.maven is less customizable and serves limited developers
 > while gradle is highly customizable
+
+2. maven is necessary to compile while gradle avoids compilation
