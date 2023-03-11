@@ -10,4 +10,4 @@ Here are the key differences between the two:
 
 3. Plugin Ecosystem: Both Maven and Gradle have extensive plugin ecosystems, but Gradle has a more modern and flexible plugin system that allows for better customization.
 
-4. 
+4. Learning Curve: Maven has a steeper learning curve compared to Gradle due to its XML-based configuration file and lack of flexibility. Gradle, on the other hand, has a more user-friendly and easy-to-learn syntax.
