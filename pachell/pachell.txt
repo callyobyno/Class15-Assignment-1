@@ -10,3 +10,7 @@ Gradle is generally considered to be faster than Maven because it uses a build c
 
 3.Dependency Management:
 Maven has a more rigid approach to dependency management and relies on a central repository to download and manage dependencies. Gradle, onthe other hand, allows for more flexibility and can pull dependencies from multiple sources, including Maven repositories.
+
+
+4. Plugin Ecosystem:
+Maven has a vast plugin ecosystem, with over 1,200 plugins available for various tasks such as code quality analysis, testing, and packaging. Gradle has a smaller plugin ecosystem, but its plugins are typically more powerful and customizable.
