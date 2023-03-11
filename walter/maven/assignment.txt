@@ -9,3 +9,5 @@ Differences between maven and Gradle
 while gradle uses domain specific language for creating project structure
 
 4.maven is slower compared to  gradle ,gradle is faster
+
+5.gradle  is very flexible and is based on a script compared to maven
