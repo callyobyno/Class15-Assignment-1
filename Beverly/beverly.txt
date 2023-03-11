@@ -16,4 +16,7 @@ Differences include:
 
 4. When running Maven commands, for instance Maven test, the Maven lifecycle up and including test (command), will be run. WHEREAS, Gradle makes building applications faster and easier; when making minor changes, a full rebuild (or going thru the entire lifecycle) is not necessary.
 
+5. For a simple Java applications build, Pom. Xml is lengthier and thus larger in size than build.gradle is. Gradle is easier to read and more maintainable than POM.xml is. 
+
+6. Gradle is thought to be better for larger projects, and Maven for small, simpler projects. 
 
