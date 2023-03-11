@@ -1,0 +1,6 @@
+Differences between maven and gradle
+Maven and Gradle are both popular build automation tools used in the software development industry.
+Here are the key differences between the two:
+
+1. Configuration: Maven uses an XML-based configuration file, while Gradle uses a Groovy-based configuration file.
+ This means that Gradle is more flexible and expressive in terms of configuring build tasks. 
