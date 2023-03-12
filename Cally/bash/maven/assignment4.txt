@@ -1,0 +1,3 @@
+Difference between Maven and Gradle
+1. Configuration:
+	MAVEN uses XML and less expensive while GRADLE uses Groovy or Kotlin and it is more flexible and expressive.
