@@ -4,3 +4,6 @@
 #    meanwhile the main goal in Maven is related to the project phase.
 #    Maven allows us to override dependencies, but only by version.
 #    Gradle tracks input and output and runs only the tasks that have been changed.
+
+# 2- Gradle does not use an XML file, but Maven uses XML file for declaring the project,
+#    its dependies, the build order, and its required plugin.
