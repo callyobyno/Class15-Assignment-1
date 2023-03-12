@@ -1,0 +1,17 @@
+# Difference between Maven and Gradles
+
+# 1- Gradle is faster than Maven: The main goal in Gradle is to add functionality to the project;
+#    meanwhile the main goal in Maven is related to the project phase.
+#    Maven allows us to override dependencies, but only by version.
+#    Gradle tracks input and output and runs only the tasks that have been changed.
+
+# 2- Gradle does not use an XML file (it uses DSL) for declaring the project configuration,
+#    but Maven uses XML file for declaring the project, its dependencies, the build order, and its required plugin.
+
+# 3- Maven has a limited number of parameters and requirements which makes its customization a bit difficult.
+#    Gradle provides a wide range of IDE (Integrated Development Environment) support custom builds that makes it highly customizable.
+
+# 4- Compilation is mandatory in Maven while Gradle avoids compilation.
+
+# 5- Maven is based on the phases of a fixed and linear model of phases.
+#    Gradle is based on a graph of task dependencies in which tasks do the work.
