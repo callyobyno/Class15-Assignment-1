@@ -1,5 +1,5 @@
-# Class15-Assignment-1
-# This is the a repository for class 15 students to submit their bash scripting assignment
+# Class15-Assignments
+# This is the repository for class 15 students to submit their assignmnets.
 
 ## How to submit
 - Fork this repository

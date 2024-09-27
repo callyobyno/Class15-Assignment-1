@@ -1,0 +1,25 @@
+Differences between Maven and Gradle:
+
+1. Configuration:
+- Maven uses XML to configure its build
+- Gradle uses a domain-specific language (DSL) based on Groovy
+
+2.Flexibility: 
+-Gradle is more flexible than Maven
+-Allows for more customization of the build process.
+
+3.Performance:
+-Gradle is generally faster than Maven due to its incremental build feature, which only rebuilds what has changed since the last build.
+
+4.Dependency management:
+-Maven has a central repository of dependencies,
+-Gradle allows you to use multiple repositories and even define your own.
+
+5.Learning curve:
+-Maven has a steeper learning curve than Gradle due to its XML configuration, while Gradle's DSL is more approachable for developers.
+
+
+
+########################
+      End Of Code
+#########################
